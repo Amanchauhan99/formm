@@ -6,9 +6,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content=
 		"width=device-width, initial-scale=1.0">
-	<title>
-		Build a Survey Form using HTML and CSS
-	</title>
 
 	<style>
 
@@ -78,7 +75,7 @@
 </head>
 
 <body>
-	<h1>GeeksforGeeks Survey Form</h1>
+	
 
 	<!-- Create Form -->
 	<form id="form">
@@ -104,6 +101,16 @@
 			<input type="email"
 				id="email"
 				placeholder="Enter your email" />
+		</div>
+        <div class="form-control">
+			<label for="email" id="label-email">
+				Password
+			</label>
+
+			<!-- Input Type Email-->
+			<input type="email"
+				id="email"
+				placeholder="Password" />
 		</div>
 
 		<div class="form-control">
